@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileiro ou não</title>
+</head>
+<body>
+    <h1>Verifação de brasileiro ou não</h1>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="verif"></div>
+
+    <script>
+        function verificar(){
+            var pais = document.getElementById('txtpais').value.toUpperCase()
+            var ver = document.getElementById('verif')
+
+            if(pais == 'BRASIL') {
+                ver.innerHTML = `<>euaVocê informou que mora em <strong>${pais}</strong>, dessa forma concluímos que você é brasileiro!`
+            } else {
+                ver.innerHTML = `Você informou que mora em <strong>${pais}</strong>, dessa forma concluímos que você é estrangeiro!`
+            }
+        }
+    </script>
+</body>
+</html>

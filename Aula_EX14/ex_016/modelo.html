@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+            <p><label for="cIni">Início: </label><input type="number" name="tIni" id="cIni"></p>
+            <p><label for="cFim">Fim: </label><input type="number" name="tFim" id="cFim"></p>
+            <p><label for="cPass">Passo: </label><input type="number" name="tPass" id="cPass"></p>
+            <input type="button" value="Contar" onclick="contador()">
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Luis Henrique Cardoso</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
