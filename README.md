@@ -1,2 +1,2 @@
 # Curso de JavaScript
- Arquivos criados enquanto eu realizava o curso de JS do canal Cursoemvideo
+ Arquivos criados durante a realização do curso de JS do canal Cursoemvideo
